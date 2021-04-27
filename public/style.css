@@ -1,0 +1,63 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+html{
+    width: auto;
+    font-family: "Montserrat", sans-serif;
+    height:100%;
+}
+
+body{
+    width:auto;
+    height:100%;
+    background-color: #eee;
+}
+
+#root{
+    width:auto;
+    height:100%;
+}
+
+.app-container{
+    display:flex;
+    flex-direction: column;
+    height:100%;
+}
+
+.header{
+    background: #f5ba13;
+    color:white;
+    width: 100%-64px;
+    padding: 16px 32px;
+    box-shadow: 0 2px 5px #ccc;
+}
+
+.note{
+    width:165px;
+    height: 175px;
+    background-color: white;
+    margin:15px 20px;
+    padding:20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px #ccc;
+    overflow: hidden;
+}
+.note p{
+    margin-top:10px;
+}
+
+footer{
+    width:100%;
+    position:absolute;
+    bottom:10px;
+    display:flex;
+    justify-content: center; 
+    color:#ccc;
+}
+
+.main-section{
+    display:flex;
+    flex-wrap: wrap;
+}
